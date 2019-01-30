@@ -1,0 +1,27 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+#formulaire{
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+#buttons{
+  display:inline-flex;
+  margin-left: 200px;
+}
+
+#sendButton{
+  margin-left: 100px;
+}
+
+p{
+  margin-left: 50px;
+}

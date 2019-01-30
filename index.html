@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>BeCode/JavaScript for the Web Exercise</title>
+
+  <link rel="icon" href="./_shared/img/becode-seal.png" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>BeCode / JavaScript for the Web</h1>
+      <h2>
+        <strong><i class="fas fa-arrow-right"></i> Super Vilain Form <i class="fas fa-arrow-left"></i></strong>
+      </h2>
+    </header>
+    <div class="content">
+      <p>
+        <i class="fas fa-arrow-right"></i> Fill this evil form to know if you're really evil. <i class="fas fa-arrow-left"></i>
+      </p>
+      <form id="formulaire">
+        <div id="datas">
+          <p>Your vilain name: <input type="text" id="name" name="name" width="300px"></p>
+          <p>Your super power: <input type="text" id="superpower" name="superpower" width="300px"></p>
+          <p>Your motivation: <input type="text" id="motivation" name="motivation" width="300px" height="100px"></p>
+          <p>Your plan to conquer the world: <input type="text" id="plan" name="plan" width="300px" height="100px"></p>
+        </div>
+        <div id="buttons">
+          <input id="resetButton" type="button" value="reset">
+          <input id="sendButton" type="button" value="send" onclick="displayForm()">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
